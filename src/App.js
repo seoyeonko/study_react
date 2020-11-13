@@ -1,9 +1,9 @@
 import React from 'react';
-import EventPractice from './EventPractice.js';
+import Board from './review/Board.js';
 
 const App = () => {
   return (
-    <EventPractice />
+    <Board />
   );
 };
 
