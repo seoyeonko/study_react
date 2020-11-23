@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const Board= () => {
+const NoticeBoard= () => {
 
     const [boards, setBoard] = useState([
         {id:1, title:'첫번째 글', contents: 'First React Study'},
@@ -66,4 +66,4 @@ const Board= () => {
 
 }
 
-export default Board;
+export default NoticeBoard;

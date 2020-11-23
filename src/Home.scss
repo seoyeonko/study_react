@@ -1,0 +1,24 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #6c60f3;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  .nav-item {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .link {
+    color: #ffffff;
+    font-style: bold;
+    text-decoration: none;
+
+    &:hover {
+      color: #ffed4a;
+    }
+  }
+}
